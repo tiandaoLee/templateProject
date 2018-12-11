@@ -1,8 +1,5 @@
-const path = require('path');
 const chalk = require('chalk');
 const webpack = require('webpack');
-const TuiaAutoUpload = require('tuia-auto-upload');
-const config = require('../config');
 const webpackConfig = require('./webpack.prod.conf');
 
 webpack(webpackConfig, function(err, stats) {
@@ -16,12 +13,4 @@ webpack(webpackConfig, function(err, stats) {
   }) + '\n\n');
 
   console.log(chalk.cyan('  Build complete.\n'));
-
-  if (process.env.NODE_ENV === 'production') {
-    const uploader = new TuiaAutoUpload({
-      dir: path.join(__dirname, '../dist/assets/'),
-      originDir: config.path
-    });
-    uploader.start();
-  }
 });

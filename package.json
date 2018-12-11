@@ -4,7 +4,7 @@
   "description": "天天趣闻自媒体管理后台",
   "main": "app.js",
   "scripts": {
-    "dev": "ncu && yarn install && cross-env NODE_ENV=development node ./bin/www",
+    "dev": "yarn install && cross-env NODE_ENV=development node ./bin/www",
     "build": "yarn install && cross-env BUILD_TYPE=production NODE_ENV=production node build/build.js"
   },
   "author": "heyesheng@duiba.com.cn",
@@ -59,7 +59,6 @@
     "progress-bar-webpack-plugin": "^1.11.0",
     "react-hot-loader": "^2.0.0-alpha-4",
     "style-loader": "~0.20.2",
-    "tuia-auto-upload": "git+ssh://git@gitlab2.dui88.com:frontend/tuia-auto-upload.git#1.1.1",
     "uglifyjs-webpack-plugin": "^1.2.2",
     "url-loader": "~1.0.1",
     "webpack": "^3.11.0",
