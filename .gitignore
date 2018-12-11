@@ -1,0 +1,9 @@
+node_modules
+dist
+bower_components
+uploads
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+.vscode

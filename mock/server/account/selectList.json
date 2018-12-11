@@ -1,0 +1,26 @@
+{
+  "code": 0,
+  "desc": "success",
+  "data": [
+    {
+      "id": 1,
+      "nickName": "string",
+      "account": "zwb1",
+      "freezenStatus": 1,
+      "imageUrl": "string",
+      "wechat": "string",
+      "intro": "string",
+      "blog": "string",
+      "email": "string",
+      "tel": "string",
+      "tags": "string",
+      "passwd": "string",
+      "optId": 0,
+      "chargeType": 0,
+      "mExposurePrice": 0,
+      "articleSum": 0,
+      "gmtStart": 1523346474000,
+      "gmtAutoFreezen": 1523346474000
+    }
+  ]
+}

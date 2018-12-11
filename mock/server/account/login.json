@@ -1,0 +1,25 @@
+{
+  "code": "0",
+  "desc": "success",
+  "data": {
+    "id": 11,
+    "nickName": "周文彪",
+    "account": "zhouwenbiao",
+    "freezenStatus": 0,
+    "imageUrl": "ccccccc",
+    "wechat": null,
+    "intro": "周文彪",
+    "blog": null,
+    "email": null,
+    "tel": null,
+    "tags": "4",
+    "passwd": "76554d70ea08499d5ba1f17e794e6986e92072e91cc11f6f",
+    "optId": 1,
+    "chargeType": 1,
+    "mExposurePrice": 0,
+    "articleSum": 0,
+    "tagsContent": null,
+    "gmtStart": 1523766289000,
+    "gmtAutoFreezen": 1539577489000
+  }
+}

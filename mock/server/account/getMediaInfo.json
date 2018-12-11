@@ -1,0 +1,27 @@
+{
+  "code": "0",
+  "data": {
+    "account": "string",
+    "articleSum": 0,
+    "blog": "string",
+    "chargeType": 0,
+    "email": "string",
+    "freezenStatus": 0,
+    "gmtAutoFreezen": "2018-04-16T07:13:10.595Z",
+    "gmtStart": "2018-04-16T07:13:10.595Z",
+    "id": 0,
+    "imageUrl": "string",
+    "intro": "string",
+    "mExposurePrice": 0,
+    "nickName": "string",
+    "optId": 0,
+    "passwd": "string",
+    "tags": "string",
+    "tagsContent": [
+      "string"
+    ],
+    "tel": "string",
+    "wechat": "string"
+  },
+  "desc": "string"
+}

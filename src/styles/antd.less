@@ -1,0 +1,28 @@
+@import '~antd/dist/antd.less';
+@primary-color: #ff642b;
+/*
+ * 重置antd的less变量
+ */
+/*
+ *面包屑样式重置
+ */
+ @tian-text-color-secondary: rgba(255, 255, 255, .45);
+ @tian-primary-5:rgba(255, 255, 255, .65);
+ @tian-text-color: rgba(255, 255, 255, 1);
+ @breadcrumb-base-color: @tian-text-color-secondary;
+ @breadcrumb-link-color: @tian-text-color-secondary;
+ @breadcrumb-link-color-hover: @tian-primary-5;
+ @breadcrumb-last-item-color: @tian-text-color;
+ @breadcrumb-separator-color: @tian-text-color-secondary;
+
+ /*
+  *重置modal框位置为居中展示
+  */
+ .ant-modal-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .ant-modal {
+    position: static;
+  }
+}

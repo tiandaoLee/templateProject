@@ -1,0 +1,24 @@
+{
+  "code": 0,
+  "data": {
+    "account": "111",
+    "articleSum": 0,
+    "blog": "1111",
+    "chargeType": 0,
+    "email": "1111@123.com",
+    "freezenStatus": 0,
+    "gmtAutoFreezen": "2018-04-10T11:41:27.481Z",
+    "gmtStart": "2018-04-10T11:41:27.481Z",
+    "id": 0,
+    "imageUrl": "string",
+    "intro": "string",
+    "mExposurePrice": 0,
+    "nickName": "1111",
+    "optId": 0,
+    "passwd": "1111",
+    "tags": "11111",
+    "tel": "111111111",
+    "wechat": "11111111"
+  },
+  "desc": "11111"
+}
